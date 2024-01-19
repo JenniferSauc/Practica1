@@ -1,7 +1,9 @@
 import POO.Carro;
 public class Main {
     public static void main(String[] args) {
-        
+ 
+        //Jennifer Saucedo Zacamo
+        //Paola Hernandez Calderon
         Carro carro = new Carro();
         System.out.println("Primer Carro:");
         carro.setMarca("Volkswagen");
