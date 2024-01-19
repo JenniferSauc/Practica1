@@ -1,0 +1,39 @@
+import POO.Carro;
+public class Main {
+    public static void main(String[] args) {
+        
+        Carro carro = new Carro();
+        System.out.println("Primer Carro:");
+        carro.setMarca("Volkswagen");
+        carro.setModelo("JETTA");
+        carro.setColor("Blanco");
+        carro.setKmRecorrido(Float.parseFloat("300.00"));
+        System.out.println(carro.getMarca());
+        System.out.println(carro.getModelo());
+        System.out.println(carro.getColor());
+        System.out.println("Km:");
+        System.out.println(carro.getKmRecorrido());
+        
+        Carro carro2= new Carro();
+        System.out.println("Segundo Carro:");
+        carro2.setMarca("AUDI");
+        carro.setKmRecorrido(Float.parseFloat("222.00"));
+        carro.setColor("Gris");
+        System.out.println(carro2.getMarca());
+        System.out.println("Km:");
+        System.out.println(carro.getKmRecorrido());
+        System.out.println("Color:");
+        System.out.println(carro.getColor());
+        
+        Carro carro3 = new Carro();
+        System.out.println("Tercer Carro:");
+        carro3.setMarca("TOYOTA");
+        carro.setPuertas(Integer.parseInt("4"));
+        carro.setLitosGas(Float.parseFloat("5.5"));
+        System.out.println(carro3.getMarca());
+        System.out.println("Puertas:");
+        System.out.println(carro.getPuertas());
+        System.out.println("Litros de Gas:");
+        System.out.println(carro.getLitosGas());
+    }
+}
